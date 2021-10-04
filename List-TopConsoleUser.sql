@@ -1,0 +1,7 @@
+SELECT  SYS.Name0, TOPU.TopConsoleUser0,ROL.SystemRole0
+FROM v_R_System SYS
+LEFT JOIN v_GS_SYSTEM_CONSOLE_USAGE_MAXGROUP TOPU on SYS.ResourceID = TOPU.ResourceID
+LEFT JOIN v_GS_SYSTEM ROL on SYS.ResourceID = ROL.ResourceID
+
+
+
