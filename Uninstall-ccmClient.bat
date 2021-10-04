@@ -1,0 +1,1 @@
+psexec \\xxx.stago.grp cmd /c c:\windows\ccmsetup\ccmsetup.exe /uninstall
